@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.lede {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+button {
+  background: #fff;
+  border: 1px solid #999;
+  cursor: pointer;
+  padding: 10px 20px;
+
+  &:hover {
+    background: #eee;
+  }
+}

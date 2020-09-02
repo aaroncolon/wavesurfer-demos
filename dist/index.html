@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WaveSurfer Demos</title>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app" class="app">
+
+      <h1>WaveSurfer Multiple Players Example</h1>
+
+      <p class="lede">This example demonstrates multiple WaveSurfer instances reacting to events and states. When a different play button is pressed, the previously playing audio is stopped and reset to the beginning.</p>
+
+      <p>Samples by <a href="https://www.youtube.com/channel/UCBCI_QCAMe1hx8UNyvJlM_Q">Bad Snacks</a> available for free on the <a href="https://www.youtube.com/audiolibrary/music">YouTube Audio Library</a>.</p>
+
+      <div class="song" id="song-kawaii" data-src="./media/Kawaii.mp3">
+        <h2>Kawaii</h2>
+        <button class="play-pause">Play</button>
+        <div class="waveform"></div>
+      </div>
+
+      <div class="song" id="song-mizuki" data-src="./media/Mizuki.mp3">
+        <h2>Mizuki</h2>
+        <button class="play-pause">Play</button>
+        <div class="waveform"></div>
+      </div>
+
+      <div class="song" id="song-new-moon" data-src="./media/New_Moon.mp3">
+        <h2>New Moon</h2>
+        <button class="play-pause">Play</button>
+        <div class="waveform"></div>
+      </div>
+
+      <div class="song" id="song-shibuya" data-src="./media/Shibuya.mp3">
+        <h2>Shibuya</h2>
+        <button class="play-pause">Play</button>
+        <div class="waveform"></div>
+      </div>
+
+    </div>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
